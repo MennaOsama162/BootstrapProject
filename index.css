@@ -1,0 +1,31 @@
+.icon-overlap {
+  font-size: 50px; /* Adjust as needed */
+  color: black; /* Replace with your desired color */
+  position: relative;
+}
+
+.icon-overlap::before {
+  content: '';
+  position: absolute;
+  top: -5px; /* Adjust as needed */
+  width: 30px; /* Adjust as needed */
+  height: 10px; /* Adjust as needed */
+  background-color: aqua;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card {
+  border: 2px solid #333; /* Add border */
+}
+.sp{
+  color:blue;
+}
+.custom-icon {
+  color:deepskyblue; /* Set the color to white */
+  font-size: 2em; /* Set the font size to 2em (adjust as needed) */
+}
+.custom-icon1 img {
+    border-radius: 50%;
+    max-width: 7%;
+}
